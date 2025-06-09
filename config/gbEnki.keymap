@@ -112,10 +112,10 @@
 
         lower_layer {
             bindings = <
-&kp RIGHT_BRACKET  &kp Q                 &none  &bootloader     &kp C_VOLUME_UP  &none           &none         &none         &kp UP         &none      &none  &none
-&kp GRAVE          &kp GRAVE             &none  &studio_unlock  &kp C_VOL_DN     &none           &none         &kp LEFT      &kp DOWN       &kp RIGHT  &none  &none
-&none              &kp NON_US_BACKSLASH  &none  &none           &kp K_MUTE       &kp LEFT_WIN    &kp LEFT_WIN  &none         &none          &none      &none  &none
-                                                &kp RCTRL       &kp SPACE        &lt 2 ENTER     &lt 2 ESCAPE  &kp LEFT_WIN  &kp BACKSPACE
+&none  &kp RIGHT_BRACKET     &none  &bootloader     &kp C_VOLUME_UP  &none           &none         &none         &kp UP         &none      &kp LEFT_BRACKET  &none
+&none  &kp GRAVE             &none  &studio_unlock  &kp C_VOL_DN     &none           &none         &kp LEFT      &kp DOWN       &kp RIGHT  &kp SQT           &none
+&none  &kp NON_US_BACKSLASH  &none  &none           &kp K_MUTE       &kp LEFT_WIN    &kp LEFT_WIN  &none         &none          &none      &kp SQT           &none
+                                    &kp RCTRL       &kp SPACE        &lt 2 ENTER     &lt 2 ESCAPE  &kp LEFT_WIN  &kp BACKSPACE
             >;
         };
 
