@@ -96,6 +96,11 @@
             bindings = <&kp LS(LG(S))>;
             key-positions = <37 38>;
         };
+
+        nim {
+            bindings = <&kp NUMBER_1>;
+            key-positions = <13 14>;
+        };
     };
 
     keymap {
